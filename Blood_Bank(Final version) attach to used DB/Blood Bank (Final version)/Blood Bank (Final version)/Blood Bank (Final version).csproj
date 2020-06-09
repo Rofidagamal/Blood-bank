@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D99BD41-8658-4D9B-9223-98823B986507}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Blood_Bank__Final_version_</RootNamespace>
+    <AssemblyName>Blood Bank %28Final version%29</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.12\lib\net40\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.Entity.6.9.12\lib\net40\MySql.Data.Entity.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Web, Version=6.9.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Web.6.9.12\lib\net40\MySql.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CBloodBag.cs" />
+    <Compile Include="CBloodBank.cs" />
+    <Compile Include="Cdonor.cs" />
+    <Compile Include="ClHospital.cs" />
+    <Compile Include="Cmanger.cs" />
+    <Compile Include="Cpatient.cs" />
+    <Compile Include="Creception.cs" />
+    <Compile Include="FBloodBag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FBloodBag.Designer.cs">
+      <DependentUpon>FBloodBag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fbloodbag_del.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fbloodbag_del.Designer.cs">
+      <DependentUpon>Fbloodbag_del.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FBloodBag_ins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FBloodBag_ins.Designer.cs">
+      <DependentUpon>FBloodBag_ins.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fbloodbag_search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fbloodbag_search.Designer.cs">
+      <DependentUpon>Fbloodbag_search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fbloodbag_update bb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fbloodbag_update bb.Designer.cs">
+      <DependentUpon>Fbloodbag_update bb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fbloodbag_Update cost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fbloodbag_Update cost.Designer.cs">
+      <DependentUpon>Fbloodbag_Update cost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fbloodbag_Update type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fbloodbag_Update type.Designer.cs">
+      <DependentUpon>Fbloodbag_Update type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FBloodBank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FBloodBank.Designer.cs">
+      <DependentUpon>FBloodBank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fbloodbank_delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fbloodbank_delete.Designer.cs">
+      <DependentUpon>Fbloodbank_delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fbloodbank_ins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fbloodbank_ins.Designer.cs">
+      <DependentUpon>Fbloodbank_ins.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fbloodbank_search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fbloodbank_search.Designer.cs">
+      <DependentUpon>Fbloodbank_search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fbloodbank_update phone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fbloodbank_update phone.Designer.cs">
+      <DependentUpon>Fbloodbank_update phone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fbloodbank_update_address.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fbloodbank_update_address.Designer.cs">
+      <DependentUpon>Fbloodbank_update_address.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fbloodbank_update_man_nam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fbloodbank_update_man_nam.Designer.cs">
+      <DependentUpon>Fbloodbank_update_man_nam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fdonor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fdonor.Designer.cs">
+      <DependentUpon>Fdonor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fdonor_delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fdonor_delete.Designer.cs">
+      <DependentUpon>Fdonor_delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fdonor_ins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fdonor_ins.Designer.cs">
+      <DependentUpon>Fdonor_ins.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FHospital.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FHospital.Designer.cs">
+      <DependentUpon>FHospital.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fhospital_delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fhospital_delete.Designer.cs">
+      <DependentUpon>Fhospital_delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fhospital_ins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fhospital_ins.Designer.cs">
+      <DependentUpon>Fhospital_ins.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fhospital_search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fhospital_search.Designer.cs">
+      <DependentUpon>Fhospital_search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fhospital_update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fhospital_update.Designer.cs">
+      <DependentUpon>Fhospital_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fmanager_delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fmanager_delete.Designer.cs">
+      <DependentUpon>Fmanager_delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fmanager_search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fmanager_search.Designer.cs">
+      <DependentUpon>Fmanager_search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fmanager_update_email.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fmanager_update_email.Designer.cs">
+      <DependentUpon>Fmanager_update_email.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fmanager_update_phone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fmanager_update_phone.Designer.cs">
+      <DependentUpon>Fmanager_update_phone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fmanger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fmanger.Designer.cs">
+      <DependentUpon>Fmanger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fmanger_ins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fmanger_ins.Designer.cs">
+      <DependentUpon>Fmanger_ins.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fpatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fpatient.Designer.cs">
+      <DependentUpon>Fpatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fpatient_delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fpatient_delete.Designer.cs">
+      <DependentUpon>Fpatient_delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fpatient_ins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fpatient_ins.Designer.cs">
+      <DependentUpon>Fpatient_ins.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fpatient_search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fpatient_search.Designer.cs">
+      <DependentUpon>Fpatient_search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fpatient_update_address.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fpatient_update_address.Designer.cs">
+      <DependentUpon>Fpatient_update_address.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fpatient_update_phone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fpatient_update_phone.Designer.cs">
+      <DependentUpon>Fpatient_update_phone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frecptionest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frecptionest.Designer.cs">
+      <DependentUpon>Frecptionest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRecptionest_delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRecptionest_delete.Designer.cs">
+      <DependentUpon>FRecptionest_delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frecptionest_ins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frecptionest_ins.Designer.cs">
+      <DependentUpon>Frecptionest_ins.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frecptionest_update_address.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frecptionest_update_address.Designer.cs">
+      <DependentUpon>Frecptionest_update_address.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frecptionest_update_bb_name.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frecptionest_update_bb_name.Designer.cs">
+      <DependentUpon>Frecptionest_update_bb_name.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frecptionest_update_phone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frecptionest_update_phone.Designer.cs">
+      <DependentUpon>Frecptionest_update_phone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FBloodBag.resx">
+      <DependentUpon>FBloodBag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fbloodbag_del.resx">
+      <DependentUpon>Fbloodbag_del.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FBloodBag_ins.resx">
+      <DependentUpon>FBloodBag_ins.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fbloodbag_search.resx">
+      <DependentUpon>Fbloodbag_search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fbloodbag_update bb.resx">
+      <DependentUpon>Fbloodbag_update bb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fbloodbag_Update cost.resx">
+      <DependentUpon>Fbloodbag_Update cost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fbloodbag_Update type.resx">
+      <DependentUpon>Fbloodbag_Update type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FBloodBank.resx">
+      <DependentUpon>FBloodBank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fbloodbank_delete.resx">
+      <DependentUpon>Fbloodbank_delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fbloodbank_ins.resx">
+      <DependentUpon>Fbloodbank_ins.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fbloodbank_search.resx">
+      <DependentUpon>Fbloodbank_search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fbloodbank_update phone.resx">
+      <DependentUpon>Fbloodbank_update phone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fbloodbank_update_address.resx">
+      <DependentUpon>Fbloodbank_update_address.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fbloodbank_update_man_nam.resx">
+      <DependentUpon>Fbloodbank_update_man_nam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fdonor.resx">
+      <DependentUpon>Fdonor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fdonor_delete.resx">
+      <DependentUpon>Fdonor_delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fdonor_ins.resx">
+      <DependentUpon>Fdonor_ins.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FHospital.resx">
+      <DependentUpon>FHospital.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fhospital_delete.resx">
+      <DependentUpon>Fhospital_delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fhospital_ins.resx">
+      <DependentUpon>Fhospital_ins.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fhospital_search.resx">
+      <DependentUpon>Fhospital_search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fhospital_update.resx">
+      <DependentUpon>Fhospital_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fmanager_delete.resx">
+      <DependentUpon>Fmanager_delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fmanager_search.resx">
+      <DependentUpon>Fmanager_search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fmanager_update_email.resx">
+      <DependentUpon>Fmanager_update_email.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fmanager_update_phone.resx">
+      <DependentUpon>Fmanager_update_phone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fmanger.resx">
+      <DependentUpon>Fmanger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fmanger_ins.resx">
+      <DependentUpon>Fmanger_ins.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fpatient.resx">
+      <DependentUpon>Fpatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fpatient_delete.resx">
+      <DependentUpon>Fpatient_delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fpatient_ins.resx">
+      <DependentUpon>Fpatient_ins.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fpatient_search.resx">
+      <DependentUpon>Fpatient_search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fpatient_update_address.resx">
+      <DependentUpon>Fpatient_update_address.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fpatient_update_phone.resx">
+      <DependentUpon>Fpatient_update_phone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frecptionest.resx">
+      <DependentUpon>Frecptionest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRecptionest_delete.resx">
+      <DependentUpon>FRecptionest_delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frecptionest_ins.resx">
+      <DependentUpon>Frecptionest_ins.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frecptionest_update_address.resx">
+      <DependentUpon>Frecptionest_update_address.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frecptionest_update_bb_name.resx">
+      <DependentUpon>Frecptionest_update_bb_name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frecptionest_update_phone.resx">
+      <DependentUpon>Frecptionest_update_phone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bin - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Upd1 - Copy %282%29 - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bin3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bin4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Upd1 - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bin6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Upd1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bin7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bin4 - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Upd1 - Copy %285%29 - Copy.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

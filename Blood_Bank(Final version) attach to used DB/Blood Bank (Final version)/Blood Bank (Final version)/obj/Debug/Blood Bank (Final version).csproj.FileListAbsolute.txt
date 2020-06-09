@@ -1,0 +1,57 @@
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\Blood Bank (Final version).csprojResolveAssemblyReference.cache
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.FBloodBag.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fbloodbag_del.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.FBloodBag_ins.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fbloodbag_search.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fbloodbag_update_bb.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fbloodbag_Update_cost.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fbloodbag_Update_type.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.FBloodBank.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fbloodbank_delete.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fbloodbank_ins.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fbloodbank_search.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fbloodbank_update_phone.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fbloodbank_update_address.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fbloodbank_update_man_nam.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fdonor.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fdonor_delete.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fdonor_ins.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.FHospital.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fhospital_delete.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fhospital_ins.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fhospital_search.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fhospital_update.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fmanager_delete.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fmanager_search.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fmanager_update_email.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fmanager_update_phone.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fmanger.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Form1.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fpatient.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fpatient_delete.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fpatient_ins.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fpatient_search.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fpatient_update_address.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fpatient_update_phone.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Frecptionest.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.FRecptionest_delete.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Frecptionest_ins.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Frecptionest_update_address.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Frecptionest_update_bb_name.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Frecptionest_update_phone.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\Blood_Bank__Final_version_.Properties.Resources.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\Blood Bank (Final version).csproj.GenerateResource.Cache
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\bin\Debug\Blood Bank (Final version).exe
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\bin\Debug\Blood Bank (Final version).pdb
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\boodbank2.Fmanger_ins.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\Blood Bank (Final version).exe
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\Blood Bank (Final version).pdb
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\bin\Debug\Blood Bank (Final version).exe.config
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\bin\Debug\EntityFramework.dll
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\bin\Debug\MySql.Data.dll
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\bin\Debug\mysql.data.entity.EF6.dll
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\bin\Debug\EntityFramework.xml
+C:\Users\DELL\documents\visual studio 2015\Projects\Blood Bank (Final version)\Blood Bank (Final version)\bin\Debug\MySql.Web.dll
+C:\Users\DELL\Desktop\Blood Bank (Final version)\Blood Bank (Final version)\bin\Debug\Blood Bank (Final version).exe.config
+C:\Users\DELL\Desktop\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\Blood Bank (Final version).exe
+C:\Users\DELL\Desktop\Blood Bank (Final version)\Blood Bank (Final version)\obj\Debug\Blood Bank (Final version).pdb
